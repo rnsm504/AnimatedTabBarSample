@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2018CF41E6723F3002B156A /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2018CF31E6723F3002B156A /* Animation.swift */; };
 		F2A649621E4F761900E98AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A649611E4F761900E98AB9 /* AppDelegate.swift */; };
 		F2A649641E4F761900E98AB9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A649631E4F761900E98AB9 /* FirstViewController.swift */; };
 		F2A649661E4F761900E98AB9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A649651E4F761900E98AB9 /* SecondViewController.swift */; };
@@ -15,6 +16,8 @@
 		F2A6496E1E4F761900E98AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A6496C1E4F761900E98AB9 /* LaunchScreen.storyboard */; };
 		F2A649791E4F761900E98AB9 /* TabBarCenterButtonBigSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A649781E4F761900E98AB9 /* TabBarCenterButtonBigSampleTests.swift */; };
 		F2A649841E4F761A00E98AB9 /* TabBarCenterButtonBigSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A649831E4F761A00E98AB9 /* TabBarCenterButtonBigSampleUITests.swift */; };
+		F2A649921E4F788400E98AB9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A649911E4F788400E98AB9 /* TabBarController.swift */; };
+		F2A649941E4FE94800E98AB9 /* animal-footprint.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A649931E4FE94800E98AB9 /* animal-footprint.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2018CF31E6723F3002B156A /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		F2A6495E1E4F761900E98AB9 /* TabBarCenterButtonBigSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarCenterButtonBigSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A649611E4F761900E98AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2A649631E4F761900E98AB9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		F2A6497F1E4F761A00E98AB9 /* TabBarCenterButtonBigSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarCenterButtonBigSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A649831E4F761A00E98AB9 /* TabBarCenterButtonBigSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCenterButtonBigSampleUITests.swift; sourceTree = "<group>"; };
 		F2A649851E4F761A00E98AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2A649911E4F788400E98AB9 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F2A649931E4FE94800E98AB9 /* animal-footprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "animal-footprint.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 		F2A649601E4F761900E98AB9 /* TabBarCenterButtonBigSample */ = {
 			isa = PBXGroup;
 			children = (
+				F2A649931E4FE94800E98AB9 /* animal-footprint.png */,
 				F2A649611E4F761900E98AB9 /* AppDelegate.swift */,
 				F2A649631E4F761900E98AB9 /* FirstViewController.swift */,
 				F2A649651E4F761900E98AB9 /* SecondViewController.swift */,
 				F2A649671E4F761900E98AB9 /* Main.storyboard */,
+				F2A649911E4F788400E98AB9 /* TabBarController.swift */,
+				F2018CF31E6723F3002B156A /* Animation.swift */,
 				F2A6496A1E4F761900E98AB9 /* Assets.xcassets */,
 				F2A6496C1E4F761900E98AB9 /* LaunchScreen.storyboard */,
 				F2A6496F1E4F761900E98AB9 /* Info.plist */,
@@ -241,6 +250,7 @@
 				F2A6496E1E4F761900E98AB9 /* LaunchScreen.storyboard in Resources */,
 				F2A6496B1E4F761900E98AB9 /* Assets.xcassets in Resources */,
 				F2A649691E4F761900E98AB9 /* Main.storyboard in Resources */,
+				F2A649941E4FE94800E98AB9 /* animal-footprint.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2A649661E4F761900E98AB9 /* SecondViewController.swift in Sources */,
+				F2A649921E4F788400E98AB9 /* TabBarController.swift in Sources */,
 				F2A649621E4F761900E98AB9 /* AppDelegate.swift in Sources */,
+				F2018CF41E6723F3002B156A /* Animation.swift in Sources */,
 				F2A649641E4F761900E98AB9 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +530,7 @@
 				F2A6498A1E4F761A00E98AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2A6498B1E4F761A00E98AB9 /* Build configuration list for PBXNativeTarget "TabBarCenterButtonBigSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				F2A6498D1E4F761A00E98AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2A6498E1E4F761A00E98AB9 /* Build configuration list for PBXNativeTarget "TabBarCenterButtonBigSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +548,7 @@
 				F2A649901E4F761A00E98AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
